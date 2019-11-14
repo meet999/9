@@ -1,0 +1,16 @@
+h1  {
+    text-align: center;
+}
+
+ ul li  {
+	display: inline-block;
+    font-size: 2.6rem;
+    padding: 50px;
+    margin-left: 190px;
+    }
+
+
+ul li a:link  {
+	text-decoration: none;
+    color: red;
+}

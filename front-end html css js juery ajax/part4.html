@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to demonstrate the prompt box.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var state_name = prompt("Please enter state name");
+  var state_abbr = prompt("enter the short name");
+  var capital = prompt("enter the capital name");
+  var population = prompt("enter the population");
+  if (state_name != null || state_abbr != null || capital != null || population != null) {
+    document.getElementById("demo").innerHTML =
+    "Thanks for your inquiry, here is the information you requested" + state_name + state_abbr + capital + population;
+  }
+}
+</script>
+
+</body>
+</html>

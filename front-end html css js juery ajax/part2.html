@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>part1</title>
+<meta charset="utf-8">
+<meta name="description" content="part1 part2 part3 part4">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<h1>part2</h1>
+	<form  method="post" name="contact_form" onsubmit="return validate_form ( );">>
+     <label>Name: </label> 
+     <input type="text" name="fullName"><br>
+     <input type="radio" name="gender" value="male"> Male<br>
+     <input type="checkbox" name="gender" value="female"> female<br>
+  </form>
+  <br>
+  <select>
+  <option value="v">Volvo</option>
+  <option value="s">Saab</option>
+  <option value="o">Opel</option>
+  <option value="a">Audi</option>
+</select>
+<button type="submit">submit</button>
+<br>
+</body>
+<script>
+    valid = true;
+
+    if ( input.value == "" )
+    {
+        alert ( "Please fill in the 'Your Name' box." );
+        valid = false;
+    }
+
+    return valid;
+
+
+</script>
+
+
+
+
+ 
+
+</html>

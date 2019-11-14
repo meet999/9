@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>part1</title>
+<meta charset="utf-8">
+<meta name="description" content="part1 part2 part3 part4">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<section>
+   
+<h2>Dropdown Menu</h2>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content" id="mySelect" onchange="myFunction()">
+  <a href="www.youtube.com">Link 1</a>
+  <a href="www.google.com">Link 2</a>
+  <a href="www.twitter.com">Link 3</a>
+  </div>
+</div>
+<p id="demo"></p>
+</section>
+
+<section>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content" id="mySelect" onclick="myFunction1()">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  </div>
+</div>
+<p id="demo1"></p>
+</section>
+	
+</body>
+<script>
+ function myFunction() {
+    var x = document.getElementById("mySelect").value;
+    document.getElementById("demo").innerHTML = "You selected: " + x;
+}  
+
+function myFunction1() {
+ 
+  var text=" ";
+  for (i=0 ; i<a.length; i++) {
+    text+= a[i] ;
+  }
+}
+</script>
+</html>

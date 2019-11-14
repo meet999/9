@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>part1</title>
+<meta charset="utf-8">
+<meta name="description" content="part1 part2 part3 part4">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<h1>part1</h1>
+	<p id="demo"></p>
+	<p id="demo1"></p>
+</body>
+<script>
+
+//for loop
+
+var nums = [5,8,11,14,17,20];
+sum = 0;
+product = 0;
+for(var i=0; i<nums.length; i++) {
+      	sum += nums[i];
+        product *= nums[i];
+      	document.getElementById('demo').innerHTML= "5+8+11+14+17+20 " + "= " + sum + '<br>'
+      	+ " 5*8*11*14*17*20 "  + "= " + product;
+      }
+
+//while loop
+
+var textAdd = 0;
+var text1 = 1;
+var i = 3;
+while (i < 32) {
+  textAdd +=  i;
+  text1 *= i;
+  i+=4;
+}
+document.getElementById("demo1").innerHTML =  "3 + 7 + 11 + 15 + 19 + 23 + 27 + 31 " + "= " + textAdd + '<br>' + "3 * 7 * 11 * 15 * 19 * 23 * 27 * 31 " + "= " + text1;
+
+
+</script>
+
+ 
+
+</html>
